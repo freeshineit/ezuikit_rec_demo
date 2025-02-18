@@ -8,7 +8,7 @@
             id="url"
             name="url"
             style="width: 500px"
-            value="ezopen://open.ys7.com/GBSUB:ED0W7CFEOVLS/1.hd.live"
+            value=""
           />
         </div>
         <div>
@@ -17,7 +17,7 @@
             id="accessToken"
             name="accessToken"
             style="width: 500px"
-            value="at.divdhcd05qzpd0o07blbhl8e579zrnre-45hss0ryhh-0pz42qh-4osayiz1n"
+            value=""
           />
         </div>
         <div>
@@ -26,7 +26,7 @@
             id="domain"
             name="domain"
             style="width: 500px"
-            value="https://ieuopen.ezvizlife.com"
+            value=""
           />
         </div>
         <button v-on:click="handleInit">init</button>

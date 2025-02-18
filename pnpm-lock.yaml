@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@ezuikit/theme-rec':
-    specifier: ^0.1.0
-    version: 0.1.0
   core-js:
     specifier: ^3.6.4
     version: 3.37.0
@@ -1311,34 +1308,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@ezuikit/datepicker@0.1.0:
-    resolution: {integrity: sha512-BtORgA+s2XTottiKM3oY4EH1HSev0XzAt6i1FFY2yrQW79uyUIbp0JI89ub9qoRyJzU1WBzO2EXzFZ3YOqMYpw==}
-    dependencies:
-      '@ezuikit/utils-dom': 1.0.1
-      dayjs: 1.11.11
-    dev: false
-
-  /@ezuikit/icons@0.1.0:
-    resolution: {integrity: sha512-YcNdeP6PtCiU4ujTU2M+f0j8U3oNHd7Juq5y4NT5YbmR6K9IrV+wSadJr9NdlUOtP84FtfJ+N7wW5B1lT8n7DQ==}
-    dependencies:
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/player-ezopen@0.1.0-beta.1:
-    resolution: {integrity: sha512-uqq5r981TNOkwAZ443hm/3VlCRV7SA84gpFzuBI3LRsgkNEbDP6qQDz7ZVEx/U6hGsSbCzrLEC/nU9bBlR1B+A==}
-    dependencies:
-      '@ezuikit/player-plugin-record': 1.0.1-alpha.4
-      '@ezuikit/utils-i18n': 1.0.1
-      '@ezuikit/utils-logger': 1.0.1
-      '@ezuikit/utils-service': 1.0.1
-      '@ezuikit/utils-tools': 1.0.1
-      dayjs: 1.11.11
-      eventemitter3: 5.0.1
-      jquery: 3.7.1
-      screenfull: 6.0.2
-      ua-parser-js: 1.0.37
-    dev: false
-
   /@ezuikit/player-ezopen@8.1.5-beta.3:
     resolution: {integrity: sha512-CiQ0vDic7Qc+TpJwkJppp12KZO+Z2IsVJqFb4Se2/tRhpXoHztLfXR8Oi+352ZSDwDeLrfehH2s9/3zbqRdvcw==}
     dependencies:
@@ -1356,165 +1325,12 @@ packages:
       ua-parser-js: 1.0.37
     dev: false
 
-  /@ezuikit/player-plugin-record@1.0.1-alpha.4:
-    resolution: {integrity: sha512-uKZVbJdnzsKI/OiOBWbAtydeWudr+8Xnco5fovRfwOvBHPA7hCEOeQTEY04hCMeSyMMrh+pGWR2PX8/2rVsXQg==}
-    dev: false
-
   /@ezuikit/player-plugin-record@8.1.1-beta.1:
     resolution: {integrity: sha512-GjPzd9b0vxdA9oQPvaEOujlL1QBxWPT504T6j4LUPJC1Jl/kUmz05+v9UwwDXdxJWQX/dfxyNFNDC6UGSPLfvA==}
     dev: false
 
-  /@ezuikit/theme-plugin-deviceinfo@0.1.0:
-    resolution: {integrity: sha512-8DPNyIpjBn37BzqxUwyTbPJDadnz4Mzqa+Hx8zEX2YYnvBrisPBvTuXj8mOQ/BAFncMDUM68jxPbdrTz3lMuBg==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-header': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-footer@0.1.0:
-    resolution: {integrity: sha512-mJIrQEpUrdIrqNFvGOVTprPwTnbQRpl2sdxzNNO/R0IPO8L2Xt2HEV5mDLP4VCTNVHZIlb9DqvWms0lbylxklw==}
-    dependencies:
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-fullscreen@0.1.0:
-    resolution: {integrity: sha512-MjIkoM/kpw6WubIjrcNNRyES4Gr88Z0qlWt4M5FcrsKnCOrP+TBix/gGvKMWXnUQtKliaS1ii77i3LTCFnieeQ==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-header@0.1.0:
-    resolution: {integrity: sha512-9uDiwqDiDM0kaLB8RTRM0NYScFe4XCE3/dEakYNZGkFpG4ZXmrsnC0EisPc1o8zhNI8MksSj2FDYOlXtCsV8CQ==}
-    dependencies:
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-play@0.1.0:
-    resolution: {integrity: sha512-Os8o3dnmF3dKDfMptM7sazLcpyS50Jr7A6jD4ZPV/cTnn/gtgj+7bZg0+5wwVCD+yNPvXlmvypeXH/ZCDjovwQ==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-      lodash-es: 4.17.21
-    dev: false
-
-  /@ezuikit/theme-plugin-playback-rate@0.1.0:
-    resolution: {integrity: sha512-+wFy3WX2hYjqm4ozDH1T3fxK2J4OWSWng/ge9gTNJWNgP7XrA+udd5l/iHHIicfa84euLRKyf+T3qcoGXNoAPA==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-rec-types@0.1.0:
-    resolution: {integrity: sha512-3akrxNlL0m+MJnuLy0oRMHwoGr1X+SNDdzwe9kaVYomD1/VFoVFid9EA/YIFrzn+o56zZZ/9duBIqh2r8sAP8Q==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/theme-plugin-header': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-      '@ezuikit/utils-tools': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-record@0.1.0:
-    resolution: {integrity: sha512-dq6qNJMTflzzB/sEC07sF/suXrMPHWQClfdx+lSpdbcSGm3gD1RuZfNchxd1sxE0f/JlD7E3VbwzfHdOwDQ5eg==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/player-plugin-record': 1.0.1-alpha.4
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-snapshot@0.1.0:
-    resolution: {integrity: sha512-rLCqycELiKMLHpTWBIisoVRAL8FfRWKiu76jyjrDKSP0Ec01s2Jdk9WWA/s4PIFxkg6R7WPfQRb67JutgaHnBA==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-      lodash-es: 4.17.21
-    dev: false
-
-  /@ezuikit/theme-plugin-volume@0.1.0:
-    resolution: {integrity: sha512-YRv7qgbRyTvKuZHxZsZQ8tpXanXSsSMueSPVX9c/VzPCFQTRKapPmxtYW3jSKx0fcvMKr/kSdxwxYrojSZebRg==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-      lodash-es: 4.17.21
-    dev: false
-
-  /@ezuikit/theme-plugin-webfullscreen@0.1.0:
-    resolution: {integrity: sha512-bfVsqnOsyQmjf4aNqvT0Tgsh+rLFz2TYLttQHc9ihKyAo1vIvzCl8VIP2ZQEgY7KbNk9ulWDOuU7oXCyy8EFmA==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-    dev: false
-
-  /@ezuikit/theme-plugin-zoom@0.1.0:
-    resolution: {integrity: sha512-XZkCd45Z3rbOs0L0lByaHc1HnOt+sPxbwWUAF5q6QTBtnzYWBOTXQufMhfK1v66FyrthBrsI0ZDRpAEZOTw8lw==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/utils-dom': 1.0.1
-      lodash-es: 4.17.21
-    dev: false
-
-  /@ezuikit/theme-rec@0.1.0:
-    resolution: {integrity: sha512-itkfqpVO2SgrsmzgLsxKNb1dGjn/hlqYILgQ5d3U+ESGEmpZZmkd9xPQimlFtfGKYzAhjzqolEg0BH6aiDjMmQ==}
-    dependencies:
-      '@ezuikit/datepicker': 0.1.0
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/theme-plugin-deviceinfo': 0.1.0
-      '@ezuikit/theme-plugin-footer': 0.1.0
-      '@ezuikit/theme-plugin-fullscreen': 0.1.0
-      '@ezuikit/theme-plugin-header': 0.1.0
-      '@ezuikit/theme-plugin-play': 0.1.0
-      '@ezuikit/theme-plugin-playback-rate': 0.1.0
-      '@ezuikit/theme-plugin-rec-types': 0.1.0
-      '@ezuikit/theme-plugin-record': 0.1.0
-      '@ezuikit/theme-plugin-snapshot': 0.1.0
-      '@ezuikit/theme-plugin-volume': 0.1.0
-      '@ezuikit/theme-plugin-webfullscreen': 0.1.0
-      '@ezuikit/theme-plugin-zoom': 0.1.0
-      '@ezuikit/theme-simple': 0.1.1-beta.1
-      '@ezuikit/utils-dom': 1.0.1
-      '@ezuikit/utils-i18n': 1.0.1
-      '@ezuikit/utils-logger': 1.0.1
-      '@ezuikit/utils-service': 1.0.1
-      '@ezuikit/utils-tools': 1.0.1
-      csstype: 3.1.3
-      dayjs: 1.11.11
-      eventemitter3: 5.0.1
-      lodash-es: 4.17.21
-    dev: false
-
-  /@ezuikit/theme-simple@0.1.1-beta.1:
-    resolution: {integrity: sha512-ue8VyzztIt2zaBSuGvhAy06bSos7AV7BovdycYoPSACcKgih0LCEvXjqarySIzAXFlENL/yK3ZASDwxw/ofJmg==}
-    dependencies:
-      '@ezuikit/icons': 0.1.0
-      '@ezuikit/player-ezopen': 0.1.0-beta.1
-      '@ezuikit/utils-dom': 1.0.1
-      '@ezuikit/utils-i18n': 1.0.1
-      '@ezuikit/utils-logger': 1.0.1
-      '@ezuikit/utils-service': 1.0.1
-      '@ezuikit/utils-tools': 1.0.1
-      dayjs: 1.11.11
-      eventemitter3: 5.0.1
-      lodash-es: 4.17.21
-    dev: false
-
   /@ezuikit/utils-collect@0.1.0:
     resolution: {integrity: sha512-85lWlB/VCaooPPkCK3nEB4F3UKgO+HbmoPEq4U1tH/ObVP7IJ7eURrFUmQT1CKsqjH5xz5g4DgZzHWgYrwGcCQ==}
-    dev: false
-
-  /@ezuikit/utils-dom@1.0.1:
-    resolution: {integrity: sha512-5V+bV2DDFTEtVhsFA0nN5Jz8Ms6b16AszvKduQ/Widu/MFc2CBHhXpwEPNrZNSIigslD6otEzym2b4/030T56Q==}
-    dependencies:
-      csstype: 3.1.3
     dev: false
 
   /@ezuikit/utils-i18n@1.0.1:
@@ -3521,6 +3337,7 @@ packages:
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
+    requiresBuild: true
     dependencies:
       color-name: 1.1.4
     dev: true
@@ -4118,10 +3935,6 @@ packages:
     dependencies:
       css-tree: 1.1.3
     dev: true
-
-  /csstype@3.1.3:
-    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
-    dev: false
 
   /cyclist@1.0.2:
     resolution: {integrity: sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==}
@@ -5564,6 +5377,7 @@ packages:
   /has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+    requiresBuild: true
     dev: true
 
   /has-property-descriptors@1.0.2:
@@ -8474,11 +8288,6 @@ packages:
   /screenfull@5.2.0:
     resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /screenfull@6.0.2:
-    resolution: {integrity: sha512-AQdy8s4WhNvUZ6P8F6PB21tSPIYKniic+Ogx0AacBMjKP1GUHN2E9URxQHtCusiwxudnCKkdy4GrHXPPJSkCCw==}
-    engines: {node: ^14.13.1 || >=16.0.0}
     dev: false
 
   /select-hose@2.0.0:

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Rec from './components/Rec.vue'
+import Rec from './components/Player.vue'
 
 export default {
   name: 'App',

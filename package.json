@@ -9,7 +9,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@ezuikit/theme-rec": "^0.1.0",
     "ezuikit-js": "8.1.5",
     "core-js": "^3.6.4",
     "vue": "2.6.11"

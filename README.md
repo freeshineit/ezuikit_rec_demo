@@ -20,22 +20,3 @@ npm run serve
 npm run build
 
 ```
-
-## staticPath
-
-```ts
-player = new RecTheme({
-  id: "video-container", // container id
-  accessToken,
-  url,
-  width: 600,
-  height: 400,
-  staticPath: "/", // Currently, no CDN is provided. Locally specify the path of a static resource
-  autoPlay: true,
-  env: { domain },
-});
-```
-
-`staticPath` is the path of a dependent static resource, and sdk does not provide a CDN.
-
-Copy `node_modules/@ezuikit/theme-rec/dist/PlayCtrlWasm` to `public/PlayCtrlWasm`
